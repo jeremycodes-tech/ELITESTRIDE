@@ -148,11 +148,10 @@
   left: 0;
   right: 0;
   z-index: 100;
-  padding: 20px 40px;
+  padding: 15px 40px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  mix-blend-mode: difference;
+  align-items: flex-start;
 }
 
 .nav-logo {
@@ -169,12 +168,13 @@
 .nav-link {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.08em;
+  font-size: 13px;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: white;
+  color: var(--color-text-primary);
   text-decoration: none;
   transition: opacity 0.2s ease;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
 }
 
 .nav-link:hover {

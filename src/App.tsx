@@ -58,7 +58,7 @@ const Navigation = () => {
         ) : (
           <>
             <div className="nav-logo">
-              <img src="images/W.png" alt={navigationConfig.logo} className="w-[1750px] lg:w-[220px] xl:w-[280px] object-contain filter invert hover:opacity-75 transition-opacity" />
+              <img src="images/W.png" alt={navigationConfig.logo} className="h-[35px] md:h-[45px] lg:h-[55px] xl:h-[65px] w-auto object-contain hover:opacity-75 transition-opacity" />
             </div>
             {navigationConfig.links.length > 0 && (
               <div className="nav-links">
